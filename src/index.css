@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.align-center {
+    text-align: center;
+  }
+.icons-a{
+    @apply flex space-x-2 align-center my-auto w-[60px] h-[60px] m-[10px]  max-[400px]:space-x-0 max-[400px]:m-[0px];
+
+}
+.icons-img{
+    @apply bg-white h-[40px] w-[40px] m-auto rounded p-2 scaling vertical-align;
+}
+
+.vertical-align{
+    vertical-align: text-top;
+    align-self: center;
+}
+.scaling:hover{
+	animation: scaling 300ms ease forwards;
+}
+@keyframes scaling {
+    from{
+        height: 40px;
+        width: 40px;
+    }
+    to{
+        height: 50px;
+        width: 50px;
+    }
+}
+.scaling2:hover{
+	animation: scaling2 300ms ease forwards;
+}
+@keyframes scaling2 {
+    from{
+        height: 30px;
+        width: 30px;
+    }
+    to{
+        height: 40px;
+        width: 40px;
+    }
+}
+
