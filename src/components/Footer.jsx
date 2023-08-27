@@ -5,7 +5,7 @@ import vercel from './assets/footer/vercel.png'
 import vscode from './assets/footer/vscode.png'
  const Footer = () => {
   return (
-    <section className='opacity-[0.4] flex justify-center items-center space-x-6 h-20 '>
+    <section className='opacity-[0.4] flex justify-center items-center space-x-6 h-20 max-[500px]:space-x-4'>
         <span className='text-[20px] text-white max-sm:text-[18px] max-[500px]:text-[14px]'>
             Powered By
         </span>
