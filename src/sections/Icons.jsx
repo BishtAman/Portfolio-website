@@ -6,7 +6,7 @@ import x from '../components/assets/icons/x.svg'
 
 export const Icons = () => {
     return (
-        <section className=' flex justify-evenly flex-wrap  -mt-5 max-[688px]:mb-[30px]  w-[60%] max-[691px]:w-[80%] max-[523px]:w-[90%] mx-auto '>
+        <section className=' flex justify-evenly flex-wrap  max-[688px]:mb-[30px]  w-[60%] max-[691px]:w-[80%] max-[523px]:w-[90%] mx-auto '>
             <a
         href='mailto:uk.amanbisht@gmail.com'
         target='_blank'

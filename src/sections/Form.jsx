@@ -18,8 +18,8 @@ export const Form = () => {
   }
   return (
 
-    <section className='  h-[55vh] text-black flex max-lg:flex-col mx-auto justify-evenly w-[100%]'>
-    <h1 className=' text-white mt-[8rem] text-[45px] -m-[0px] max-lg:text-center max-lg:mt-[11rem] max-lg:text-[40px] max-[300px]:text-[30px]'>Contact <span className='text-[#f6bd2e]'>Me</span></h1>
+    <section className=' text-black flex max-lg:flex-col mx-auto justify-evenly w-[100%]'>
+    <h1 className=' text-white mt-[1rem] text-[45px] -m-[0px] max-lg:text-center max-lg:mt-[1rem] max-lg:text-[40px] max-[300px]:text-[30px]'>Contact <span className='text-[#f6bd2e]'>Me</span></h1>
       <form 
       name='submit-to-google-sheet'
       className=' flex flex-col  max-lg:mx-auto  w-[60%] max-[691px]:w-[80%] max-[523px]:w-[90%]:' 
