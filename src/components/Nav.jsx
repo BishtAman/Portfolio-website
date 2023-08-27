@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-import logo from './assets/logo.png'
+
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 export default function Nav({ whenChange }) {
@@ -20,13 +20,7 @@ export default function Nav({ whenChange }) {
 
     return (
         <header>
-            <a href="/">
-                <img
-                    src={logo}
-                    alt="logo"
-                    className="max-lg:h-[7vh] ml-[10px] h-[9vh]"
-                />
-            </a>
+            <div></div>
             <nav ref={navRef} className=" max-w-full h-[50px] m-[5px] flex p-2 plex text-[14px]">
 
                 {navLinks.map((items, index) => {
