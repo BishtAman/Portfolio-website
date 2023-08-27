@@ -43,7 +43,7 @@ export const Form = () => {
 
         <input className=' max-[639px]:m-auto max-[639px]:mt-[25px] bg-slate-600 w-[170px] text-slate-400 hover:text-[#f6bd2e] focus:bg-slate-400 focus:text-[#000] my-10 rounded-md p-[4px] text-[20px]' type='submit' />
       </form>
-      <div></div>
+      <div className='mb-10px'></div>
  
     </section>
   )
