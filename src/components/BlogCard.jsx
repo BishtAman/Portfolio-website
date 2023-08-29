@@ -4,7 +4,7 @@ export default function BlogCard({thumbnail, name, calender, date, link}) {
   return (
     // f6bd2e
     <main
-    className="bg-white mx-[20px] my-[30px] w-[31rem] max-sm:w-[27rem] h-[23rem] max-sm:h-[20rem] max-[550px]:w-[21rem] max-[550px]:h-[15rem]  text-black"
+    className="bg-white mx-[20px] my-[30px] w-[31rem] max-sm:w-[27rem] h-[23rem] max-sm:h-[20rem] max-[550px]:w-[21rem] max-[550px]:h-[15rem] text-black"
     >
         <section>
             <img
