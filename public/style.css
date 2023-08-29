@@ -191,3 +191,46 @@ nav{
 }
 
 
+@keyframes border-radius-animation {
+	0% {
+		border-radius: 30px;
+	}
+  
+	10% {
+		border-radius: 25% 10%;
+	}
+	30% {
+		border-radius: 10% 30% 50% 70%;
+	}
+	50% {
+		border-radius: 10% / 50%;
+	}
+	70% {
+		border-radius: 10px 100px / 120px;
+	}
+  
+	100% {
+		border-radius: 30px;
+	}
+  }
+  
+  .animateBorder {
+	border-radius: 0;
+	animation: border-radius-animation 15s 200ms ease-in-out infinite;
+  }
+
+  .avatar-wobble {
+	border-radius: 272px 776px 286px 787px / 792px 292px 775px 297px;
+    animation: wobble 6s ease-in-out alternate infinite;
+  }
+  
+  @keyframes wobble {
+	50% {
+	  border-radius: 750px 550px 350px 750px /
+					 350px 750px 550px 450px;
+	}
+	100% {
+	  border-radius: 750px 250px 750px 250px /
+					 250px 750px 250px 750px;
+	}
+  }
