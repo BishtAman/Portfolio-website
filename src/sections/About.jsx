@@ -2,7 +2,7 @@
  import cv from '../components/assets/CV.pdf'
  const About = (props) => {
   return (
-    <section className={` relative  visible text-white poppins flex flex-col justify-center pl-[20px] ${props.change==1?'visible fadein-transition':'fadeout-transition hidden'}
+    <section className={` relative  visible text-white poppins flex flex-col justify-center  ${props.change==1?'visible fadein-transition':'fadeout-transition hidden'}
     w-[90%] mx-auto flex 
     `}>
     {/* f6bd2e */}
