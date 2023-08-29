@@ -15,11 +15,11 @@ const App = () => {
   };
   return (
     <main className="relative">
-      <a href="/" className="absolute top-[10px] left-[5px]">
+      <a href="/" className="absolute top-5 left-5">
         <img
           src={logo}
           alt="logo"
-          className="max-lg:h-[7vh] ml-[10px] h-[9vh]"
+          className="max-lg:h-[4vh] ml-[10px] h-[6vh]"
         />
       </a>
       <Nav whenChange={handleNavChange} />

@@ -27,7 +27,7 @@ export default function Nav({ whenChange }) {
                     return (
                         <a
                             key={index}
-                            className=" text-[#f6bd2e] font-semibold focus:text-[#efd182] mx-4 px-3  hover:text-[#efd182]"
+                            className=" text-[#f6bd2e] font-semibold focus:text-[#efd182] mx-4 px-3  hover:text-[#efd182] poppins"
                             onClick={() => {
                                 changing(index)
                             }}
