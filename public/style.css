@@ -1,39 +1,40 @@
 /* Firefox */
 * {
 	scrollbar-width: thin;
-	scrollbar-color: #3D3D3D #585D6C;
+	scrollbar-color: #545454 #000000;
   }
   
   /* Chrome, Edge and Safari */
   *::-webkit-scrollbar {
-	height: 8px;
-	width: 8px;
+	height: 9px;
+	width: 9px;
   }
   *::-webkit-scrollbar-track {
-	border-radius: 4px;
-	background-color: #585D6C;
+	border-radius: 0px;
+	background-color: #000000;
   }
   
   *::-webkit-scrollbar-track:hover {
-	background-color: #585D6C;
+	background-color: #000000;
   }
   
   *::-webkit-scrollbar-track:active {
-	background-color: #585D6C;
+	background-color: #000000;
   }
   
   *::-webkit-scrollbar-thumb {
-	border-radius: 8px;
-	background-color: #3D3D3D;
+	border-radius: 0px;
+	background-color: #545454;
   }
   
   *::-webkit-scrollbar-thumb:hover {
-	background-color: #505050;
+	background-color: #F6BD2E;
   }
   
   *::-webkit-scrollbar-thumb:active {
-	background-color: #505050;
+	background-color: #F6BD2E;
   }
+  
   
 body{
 	background: url(./bgFrame.png);
